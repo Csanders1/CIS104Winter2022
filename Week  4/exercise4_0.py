@@ -3,9 +3,11 @@ def maxFinder(num1, num2, num3):
     return(f)
 
 
-one = float(input("Enter a number"))
-two = float(input("Enter a second number"))
-three = float(input("Enter a third number"))
 
-print("You chose: ", one, "," , two , "," , three)
-print("The highest number was: ", maxFinder(one, two, three))
+print(maxFinder(5, 9, 2))
+print(maxFinder(21, 59, 74))
+print(maxFinder(99, 1, 0))
+
+
+
+
